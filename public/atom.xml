@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Leslie Young</title>
+  
+  <subtitle>永远相信最美好的事即将发生</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://dktoo.cc/"/>
+  <updated>2018-07-30T08:45:57.780Z</updated>
+  <id>http://dktoo.cc/</id>
+  
+  <author>
+    <name>Leslie Young</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2018年下半年计划</title>
+    <link href="http://dktoo.cc/2018/07/30/2018-Second-Half-Plan/"/>
+    <id>http://dktoo.cc/2018/07/30/2018-Second-Half-Plan/</id>
+    <published>2018-07-30T08:40:19.000Z</published>
+    <updated>2018-07-30T08:45:57.780Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="2018年下半年计划"><a href="#2018年下半年计划" class="headerlink" title="2018年下半年计划"></a>2018年下半年计划</h3><ul><li style="list-style: none"><input type="checkbox"> 深度学习Html/Css/JavaScript</li><li style="list-style: none"><input type="checkbox"> 锻炼身体</li><li style="list-style: none"><input type="checkbox"> 把工作落实</li><li style="list-style: none"><input type="checkbox"> 存钱换电脑</li><li style="list-style: none"><input type="checkbox"> 学习厨艺</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;2018年下半年计划&quot;&gt;&lt;a href=&quot;#2018年下半年计划&quot; class=&quot;headerlink&quot; title=&quot;2018年下半年计划&quot;&gt;&lt;/a&gt;2018年下半年计划&lt;/h3&gt;&lt;ul&gt;
+&lt;li style=&quot;list-style: none&quot;&gt;&lt;input 
+      
+    
+    </summary>
+    
+      <category term="生活" scheme="http://dktoo.cc/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="计划" scheme="http://dktoo.cc/tags/%E8%AE%A1%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网站发展记录</title>
+    <link href="http://dktoo.cc/2018/04/25/Development-record/"/>
+    <id>http://dktoo.cc/2018/04/25/Development-record/</id>
+    <published>2018-04-25T05:56:07.000Z</published>
+    <updated>2018-06-28T08:04:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="备案通过（2018-05-29）"><a href="#备案通过（2018-05-29）" class="headerlink" title="备案通过（2018-05-29）"></a>备案通过（2018-05-29）</h3><p>历时一个月域名终于备案成功了TvT…</p><h3 id="新域名备案（2018-05）"><a href="#新域名备案（2018-05）" class="headerlink" title="新域名备案（2018-05）"></a>新域名备案（2018-05）</h3><p>新的.com域名还在漫长的备案，初审挂掉了，等待二次审核…</p><h3 id="博客迁移（2018-04-25）"><a href="#博客迁移（2018-04-25）" class="headerlink" title="博客迁移（2018-04-25）"></a>博客迁移（2018-04-25）</h3><p>博客之前是托管于Coding的，现在迁移回自己的服务器。</p><p><img src="https://i.loli.net/2018/04/25/5ae01a9d7712a.jpg" alt="199f7fbf4921adff560016dcdaafefb2.jpg"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;备案通过（2018-05-29）&quot;&gt;&lt;a href=&quot;#备案通过（2018-05-29）&quot; class=&quot;headerlink&quot; title=&quot;备案通过（2018-05-29）&quot;&gt;&lt;/a&gt;备案通过（2018-05-29）&lt;/h3&gt;&lt;p&gt;历时一个月域名终于备案成功了
+      
+    
+    </summary>
+    
+      <category term="网站" scheme="http://dktoo.cc/categories/%E7%BD%91%E7%AB%99/"/>
+    
+    
+      <category term="备忘录" scheme="http://dktoo.cc/tags/%E5%A4%87%E5%BF%98%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript闭包</title>
+    <link href="http://dktoo.cc/2018/04/25/JavaScript-Closures/"/>
+    <id>http://dktoo.cc/2018/04/25/JavaScript-Closures/</id>
+    <published>2018-04-25T01:42:00.000Z</published>
+    <updated>2018-05-22T01:59:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="JavaScript闭包"><a href="#JavaScript闭包" class="headerlink" title="JavaScript闭包"></a>JavaScript闭包</h3><p>看了两天的的JavaScript闭包，对于闭包有了些浅显的见解。</p><blockquote><p>在函数外部调用函数内部的局部变量或者子函数</p></blockquote><h3 id="变量作用域"><a href="#变量作用域" class="headerlink" title="变量作用域"></a>变量作用域</h3><p>变量的作用域分为：<strong>全局变量、局部变量</strong></p><p>在JavaScript中函数内部可以直接读取外部的全局变量</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> n = <span class="number">10</span>;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f1</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"><span class="built_in">console</span>.log(n);</span><br><span class="line">&#125;;</span><br><span class="line">f1();  <span class="comment">//10</span></span><br></pre></td></tr></table></figure><p>但是在外部无法读取函数内部定义的局部变量</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f1</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"><span class="keyword">var</span> n = <span class="number">10</span>;</span><br><span class="line">&#125;;</span><br><span class="line">f1();</span><br><span class="line"><span class="built_in">console</span>.log(n);  <span class="comment">//n is not defined</span></span><br></pre></td></tr></table></figure><h3 id="如何在外部读取局部变量"><a href="#如何在外部读取局部变量" class="headerlink" title="如何在外部读取局部变量"></a>如何在外部读取局部变量</h3><p>在JavaScript中函数内部的子函数可以读取函数定义的局部变量</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f1</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"><span class="keyword">var</span> n = <span class="number">10</span>;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f2</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"><span class="built_in">console</span>.log(n);  <span class="comment">//10</span></span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>注：在函数内部声明局部变量不能直接写 n = 10，否则将创建一个全局变量</p></blockquote><p>在上面👆的函数中函数f2是被包括在函数f1中的，f2可以读取f1中的局部变量，那么只要把f2作为f1的返回值，我们就可以在f1外部读取它的内部变量</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f1</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"><span class="keyword">var</span> n = <span class="number">10</span>;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f2</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"><span class="built_in">console</span>.log(n);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> f2;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> result = f1();</span><br><span class="line">result();  <span class="comment">//10</span></span><br></pre></td></tr></table></figure><h3 id="闭包的概念"><a href="#闭包的概念" class="headerlink" title="闭包的概念"></a>闭包的概念</h3><p>上面👆的函数f2就是一个闭包</p><p>f2能让f1中的局部变量n在f1外部被调用，这个就是闭包</p><blockquote><p>或：函数f2在函数f1外部被调用，使函数f1始终存在内存中，不被回收机制销毁</p></blockquote><p>由于在JavaScript语言中，只有函数内部的子函数才能读取局部变量，因此可以把闭包简单理解成“定义在一个函数内部的函数”</p><p>所以，在本质上，闭包就是将函数内部和函数外部连接起来的一座桥梁</p><h3 id="闭包的用途"><a href="#闭包的用途" class="headerlink" title="闭包的用途"></a>闭包的用途</h3><p>闭包可以用在许多地方。它的最大用处有两个：一个是前面提到的可以读取函数内部的变量，另一个就是让这些变量的值始终保持在内存中（如下👇）。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">A</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> count = <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">B</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">       count ++;</span><br><span class="line">       <span class="built_in">console</span>.log(count);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> B;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> C = A();</span><br><span class="line">C();  <span class="comment">// 1</span></span><br><span class="line">C();  <span class="comment">// 2</span></span><br><span class="line">C();  <span class="comment">// 3</span></span><br></pre></td></tr></table></figure><p>count 是函数A 中的一个变量，它的值在函数B 中被改变，函数 B 每执行一次，count 的值就在原来的基础上累加 1 。因此，函数A中的 count 变量会一直保存在内存中。</p><p>当我们需要在模块中定义一些变量，并希望这些变量一直保存在内存中但又不会 “污染” 全局的变量时，就可以用闭包来定义这个模块。</p><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><h4 id="命名冲突"><a href="#命名冲突" class="headerlink" title="命名冲突"></a>命名冲突</h4><p>当同一个闭包作用域下两个参数或者变量同名时，就会产生命名冲突。更近的作用域有更高的优先权，所以最近的优先级最高，最远的优先级最低。这就是作用域链。链的第一个元素就是最里面的作用域，最后一个元素便是最外层的作用域。</p><p>看以下的例子：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">outside</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> x = <span class="number">5</span>;</span><br><span class="line">  <span class="function"><span class="keyword">function</span> <span class="title">inside</span>(<span class="params">x</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> x * <span class="number">2</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> inside;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">outside()(<span class="number">10</span>);  <span class="comment">// 20</span></span><br></pre></td></tr></table></figure><p>命名冲突发生在<code>return x</code>上，<code>inside</code>的参数<code>x</code>和<code>outside</code>变量<code>x</code>发生了冲突。这里的作用链域是{<code>inside</code>, <code>outside</code>, 全局对象}。因此<code>inside</code>的<code>x</code>具有最高优先权，返回了20（<code>inside</code>的<code>x</code>）而不是10（<code>outside</code>的<code>x</code>）。</p><h4 id="内存占用"><a href="#内存占用" class="headerlink" title="内存占用"></a>内存占用</h4><p>由于闭包会使得函数中的变量都被保存在内存中，内存消耗很大，所以不能滥用闭包，否则会造成网页的性能问题，在IE中可能导致内存泄露。解决方法是，在退出函数之前，将不使用的局部变量全部删除。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;JavaScript闭包&quot;&gt;&lt;a href=&quot;#JavaScript闭包&quot; class=&quot;headerlink&quot; title=&quot;JavaScript闭包&quot;&gt;&lt;/a&gt;JavaScript闭包&lt;/h3&gt;&lt;p&gt;看了两天的的JavaScript闭包，对于闭包有了些浅显的见
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="http://dktoo.cc/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JavaScript" scheme="http://dktoo.cc/tags/JavaScript/"/>
+    
+      <category term="JavaScript闭包" scheme="http://dktoo.cc/tags/JavaScript%E9%97%AD%E5%8C%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网页字体加载方案</title>
+    <link href="http://dktoo.cc/2018/04/23/WebFont/"/>
+    <id>http://dktoo.cc/2018/04/23/WebFont/</id>
+    <published>2018-04-23T02:38:33.000Z</published>
+    <updated>2018-05-22T02:00:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Windows的字体优化对于处女座的我是不能接受的：( ，偶然发现  官网在Windows中浏览时，会在网页加载后改变网页的字体(⊙o⊙) 。。。<br>最近毕业答辩也结束了，闲来无事就开始研究利用JavaScript在网页加载完毕后修改网站字体</p><h3 id="addLoadEvent"><a href="#addLoadEvent" class="headerlink" title="addLoadEvent"></a>addLoadEvent</h3><blockquote><p>网页加载完毕后执行函数</p></blockquote><p>onload事件是HTML DOM Event 对象的一个属性，它会在整个页面记载完毕后立即执行。这里使用并使用 <code>addLoadEvent()</code>封装这个操作。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">addLoadEvent</span>(<span class="params">func</span>) </span>&#123;</span><br><span class="line"><span class="keyword">var</span> oldonload = <span class="built_in">window</span>.onload;</span><br><span class="line"><span class="keyword">if</span> (<span class="keyword">typeof</span> <span class="built_in">window</span>.onload != <span class="string">'function'</span>) &#123;</span><br><span class="line"><span class="built_in">window</span>.onload = func;</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line"><span class="built_in">window</span>.onload = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line"><span class="keyword">if</span> (oldonload) &#123;</span><br><span class="line">oldonload();</span><br><span class="line">&#125;</span><br><span class="line">func();</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">addLoadEvent(MyFont);</span><br></pre></td></tr></table></figure><h3 id="fontFace"><a href="#fontFace" class="headerlink" title="fontFace"></a>fontFace</h3><blockquote><p>从外部加载新的字体文件，然后应用到网页</p></blockquote><p>不同的网络作者可能需要针对标题字体或正文字体的不同策略。使用WebKit中新增的<a href="http://www.w3.org/TR/css-font-loading/" target="_blank" rel="noopener">CSS字体加载API</a>，Web作者可以完全控制自己的字体加载策略。</p><p>这个API公开了JavaScript的两个主要部分：<code>FontFace</code>接口和<code>FontFaceSet</code>接口。<code>FontFace</code>表示与CSS <code>@font-face</code>规则相同的概念，因此它包含有关字体的信息，如url，weight，unicode-range，family等。该文档<code>FontFaceSet</code>包含网页可用于呈现的所有字体。每个文档都有自己的<code>FontFaceSet</code>可访问的通道<code>document.fonts</code>。</p><p>使用这些对象去实行一个特别的字体加载策略变得十分直接，一旦<code>FontFace</code>被构造，<code>load()</code>方法就开始异步下载字体数据。当下载成功或因失败而时它会返回了一个<code>Promise</code>。用过链式调用返回的promise，JS就可以处理它了。因此一个网站可以实行这样的策略：在不超时的情况下立即使用降级兼容字体。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">MyFont</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">            <span class="keyword">let</span> fontFace = <span class="keyword">new</span> FontFace(<span class="string">"MyWebFont"</span>,</span><br><span class="line">                <span class="string">"url('http://onmd9zf1p.bkt.clouddn.com/font/serif.ttf') format('woff2'),url('http://onmd9zf1p.bkt.clouddn.com/font/serif.ttf') format('woff')"</span></span><br><span class="line">            );</span><br><span class="line">            fontFace.load().then(<span class="function"><span class="keyword">function</span> (<span class="params">loadedFontFace</span>) </span>&#123;</span><br><span class="line">                <span class="built_in">document</span>.fonts.add(loadedFontFace);</span><br><span class="line">                <span class="built_in">document</span>.getElementById(<span class="string">"app"</span>).style.fontFamily = <span class="string">"MyWebFont"</span>;</span><br><span class="line">            &#125;);</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure><h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img src="https://i.loli.net/2018/04/23/5add85c4072e8.gif" alt="2018-04-23 15.05.08.gif"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Windows的字体优化对于处女座的我是不能接受的：( ，偶然发现  官网在Windows中浏览时，会在网页加载后改变网页的字体(⊙o⊙) 。。。&lt;br&gt;最近毕业答辩也结束了，闲来无事就开始研究利用JavaScript在网页加载完毕后修改网站字体&lt;/p&gt;
+&lt;h3 id=&quot;
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="http://dktoo.cc/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JavaScript" scheme="http://dktoo.cc/tags/JavaScript/"/>
+    
+      <category term="Onload" scheme="http://dktoo.cc/tags/Onload/"/>
+    
+      <category term="字体" scheme="http://dktoo.cc/tags/%E5%AD%97%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vol.1804</title>
+    <link href="http://dktoo.cc/2018/04/04/Vol.1804/"/>
+    <id>http://dktoo.cc/2018/04/04/Vol.1804/</id>
+    <published>2018-04-04T02:23:34.000Z</published>
+    <updated>2018-05-22T02:00:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="2018-04-04"><a href="#2018-04-04" class="headerlink" title="2018.04.04"></a>2018.04.04</h3><p>转眼又快到了一年的毕业季，不过今年轮到我了，其实也没有什么伤感的，成长已经让我习惯了这些。离开了象牙塔安逸的生活就结束了，接下来面对的才是真正的生活。不过越是临近毕业越体验到生活的不容易</p><h3 id="实习"><a href="#实习" class="headerlink" title="实习"></a>实习</h3><p>这里始终不是长久之地，努力学习充实自己</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;2018-04-04&quot;&gt;&lt;a href=&quot;#2018-04-04&quot; class=&quot;headerlink&quot; title=&quot;2018.04.04&quot;&gt;&lt;/a&gt;2018.04.04&lt;/h3&gt;&lt;p&gt;转眼又快到了一年的毕业季，不过今年轮到我了，其实也没有什么伤感的，成长已经让
+      
+    
+    </summary>
+    
+      <category term="杂记" scheme="http://dktoo.cc/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    
+      <category term="生活杂记" scheme="http://dktoo.cc/tags/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Dell 7447 黑苹果安装-备份</title>
+    <link href="http://dktoo.cc/2018/03/21/Dell-7447-Macintosh/"/>
+    <id>http://dktoo.cc/2018/03/21/Dell-7447-Macintosh/</id>
+    <published>2018-03-21T07:38:21.000Z</published>
+    <updated>2018-05-22T01:58:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="机型配置"><a href="#机型配置" class="headerlink" title="机型配置"></a>机型配置</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">机型：DELL Inspiron 7447</span><br><span class="line">CPU：Intel i5-4210H @ 2.90GHz</span><br><span class="line">内存：DDR3 4G * 2</span><br><span class="line">硬盘：影驰 GALAX GX0120L9A250-E1 120 GB + 希捷 ST500LT012-1DG142 500 GB</span><br><span class="line">显卡：Intel HD Graphics 4600</span><br><span class="line">显示器：奇美 CMN1490 1366x768</span><br><span class="line">声卡：Realtek ALC255</span><br><span class="line">无线网卡：DW1560</span><br></pre></td></tr></table></figure><h5 id="安装文件"><a href="#安装文件" class="headerlink" title="安装文件"></a>安装文件</h5><p><a href="https://file.dktoo.cc/EFI-Dell-i5-7447/CLOVER.zip" target="_blank" rel="noopener">7447-Clover</a></p><p><a href="https://file.dktoo.cc/EFI-Dell-i5-7447/%E5%A3%B0%E5%8D%A1.zip" target="_blank" rel="noopener">ALC255声卡</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;机型配置&quot;&gt;&lt;a href=&quot;#机型配置&quot; class=&quot;headerlink&quot; title=&quot;机型配置&quot;&gt;&lt;/a&gt;机型配置&lt;/h5&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pr
+      
+    
+    </summary>
+    
+      <category term="Macintosh" scheme="http://dktoo.cc/categories/Macintosh/"/>
+    
+    
+      <category term="黑苹果" scheme="http://dktoo.cc/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    
+      <category term="Clover" scheme="http://dktoo.cc/tags/Clover/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JSBox - 创造你自己的工具</title>
+    <link href="http://dktoo.cc/2018/03/21/JSBox/"/>
+    <id>http://dktoo.cc/2018/03/21/JSBox/</id>
+    <published>2018-03-21T06:23:12.000Z</published>
+    <updated>2018-05-22T01:59:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="JSBox"><a href="#JSBox" class="headerlink" title="JSBox"></a>JSBox</h3><ul><li><p>什么是JSBox？</p><p>JSBox 是一个 JavaScript 的集成开发环境，可以通过自己编写JavaScript来实现想法的工具 ：）</p></li><li><p>JSBox能做什么？</p><p>Emmm创造力这个东西不好说</p></li></ul><h3 id="我的-JSBox"><a href="#我的-JSBox" class="headerlink" title="我的 JSBox"></a>我的 JSBox</h3><p>​    <a href="https://jsbox.dktoo.cc" target="_blank" rel="noopener">点击前往</a></p><ul><li>个人所得税计算 - <code>2018-03-14</code></li><li>Movie Top 10 - <code>2018-03-19</code></li></ul><h3 id="关于购买"><a href="#关于购买" class="headerlink" title="关于购买"></a>关于购买</h3><p>最开始用的是TF的版本，并不打算购买的。用了一段时间之后自己也写了一两个脚本觉得这东西还不错，再加上碰到钟大打算上调<strong>JSBox</strong>的价格，纠结了一会儿还是自己购买了商店版的<code>￥40</code><br>😂第二天就上调到了<code>￥50</code>，按照钟大的意思就是 </p><blockquote><p>买得早，升值空间越大</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;JSBox&quot;&gt;&lt;a href=&quot;#JSBox&quot; class=&quot;headerlink&quot; title=&quot;JSBox&quot;&gt;&lt;/a&gt;JSBox&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;什么是JSBox？&lt;/p&gt;
+&lt;p&gt;JSBox 是一个 JavaScript 的集成开发环境，可以通
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="http://dktoo.cc/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JSBox" scheme="http://dktoo.cc/tags/JSBox/"/>
+    
+      <category term="JavaScript" scheme="http://dktoo.cc/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://dktoo.cc/2018/03/04/hello-world/"/>
+    <id>http://dktoo.cc/2018/03/04/hello-world/</id>
+    <published>2018-03-04T06:23:12.000Z</published>
+    <updated>2018-05-22T01:58:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote class="blockquote-center">Hello World！</blockquote><p><img src="https://i.loli.net/2018/04/25/5ae01a9d7712a.jpg" alt="199f7fbf4921adff560016dcdaafefb2.jpg"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote class=&quot;blockquote-center&quot;&gt;Hello World！&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2018/04/25/5ae01a9d7712a.jpg&quot; alt=&quot;199f7fbf
+      
+    
+    </summary>
+    
+      <category term="网站" scheme="http://dktoo.cc/categories/%E7%BD%91%E7%AB%99/"/>
+    
+    
+      <category term="Hexo" scheme="http://dktoo.cc/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文件转Base64编码</title>
+    <link href="http://dktoo.cc/2017/08/05/%E6%96%87%E4%BB%B6%E8%BD%ACBase64%E7%BC%96%E7%A0%81/"/>
+    <id>http://dktoo.cc/2017/08/05/文件转Base64编码/</id>
+    <published>2017-08-05T05:35:49.000Z</published>
+    <updated>2018-05-22T01:58:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>周末在宿舍无聊，想起公司<code>H5</code>做的 App下周要做Base64附件上传，之前在期末项目用过图片用Base64编码用Ajax上传服务器感觉与其他的上传还是很方便。</p><h3 id="上代码"><a href="#上代码" class="headerlink" title="上代码"></a>上代码</h3><p><strong>Html</strong></p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">onsubmit</span>=<span class="string">"return false;"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"hidden"</span> <span class="attr">name</span>=<span class="string">"file_base64"</span> <span class="attr">id</span>=<span class="string">"file_base64"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"file"</span> <span class="attr">id</span>=<span class="string">"fileup"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span> <span class="attr">value</span>=<span class="string">"submit"</span> <span class="attr">onclick</span>=<span class="string">"post()"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure><p><strong>Js</strong></p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">"https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"</span>&gt;<span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        <span class="comment">// name -&gt; 文件名  base64 -&gt; 文件编码</span></span><br><span class="line">        <span class="keyword">var</span> name, base64;</span><br><span class="line">        <span class="comment">// 获取文件并编码</span></span><br><span class="line">        $(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">            $(<span class="string">"#fileup"</span>).change(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">                name = <span class="keyword">this</span>.files[<span class="number">0</span>].name;</span><br><span class="line">                <span class="keyword">var</span> reader = <span class="keyword">new</span> FileReader();</span><br><span class="line">                reader.readAsDataURL(<span class="keyword">this</span>.files[<span class="number">0</span>]);</span><br><span class="line">                reader.onload = <span class="function"><span class="keyword">function</span> (<span class="params">e</span>) </span>&#123;</span><br><span class="line">                    <span class="built_in">console</span>.log(e.target.result);</span><br><span class="line">                    base64 = e.target.result;</span><br><span class="line">                &#125;;</span><br><span class="line">            &#125;);</span><br><span class="line">        &#125;);</span><br><span class="line">        <span class="comment">// 提交数据</span></span><br><span class="line">        <span class="function"><span class="keyword">function</span> <span class="title">post</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">            $.ajax(&#123;</span><br><span class="line">                type: <span class="string">"POST"</span>,</span><br><span class="line">                url: <span class="string">"uploader.php"</span>,</span><br><span class="line">                data: &#123;</span><br><span class="line">                    <span class="string">"name"</span>: name,</span><br><span class="line">                    <span class="string">"base64"</span>: base64,</span><br><span class="line">                &#125;,</span><br><span class="line">                dataType: <span class="string">"json"</span>,</span><br><span class="line">                success: <span class="function"><span class="keyword">function</span> (<span class="params">data</span>) </span>&#123;</span><br><span class="line">                    <span class="built_in">console</span>.log(data)</span><br><span class="line">                &#125;,</span><br><span class="line">                error: <span class="function"><span class="keyword">function</span>(<span class="params">XMLHttpRequest, textStatus, errorThrown</span>) </span>&#123;</span><br><span class="line">                        <span class="built_in">console</span>.log(XMLHttpRequest.status);</span><br><span class="line">                        <span class="built_in">console</span>.log(XMLHttpRequest.readyState);</span><br><span class="line">                        <span class="built_in">console</span>.log(textStatus);</span><br><span class="line">                    &#125;,</span><br><span class="line">            &#125;)</span><br><span class="line">        &#125;</span><br><span class="line">    &lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure><p><strong>PHP</strong></p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">if</span> (<span class="keyword">isset</span>($_POST[<span class="string">'name'</span>],$_POST[<span class="string">'base64'</span>]))&#123;</span><br><span class="line">    $name = $_POST[<span class="string">'name'</span>];</span><br><span class="line">    $file_base64 = $_POST[<span class="string">'base64'</span>];</span><br><span class="line">    $file_base64 = preg_replace(<span class="string">'/data:.*;base64,/i'</span>, <span class="string">''</span>, $file_base64);</span><br><span class="line">    $file_base64 = base64_decode($file_base64);</span><br><span class="line"></span><br><span class="line">    file_put_contents($name, $file_base64);</span><br><span class="line">    </span><br><span class="line">    $data[<span class="string">'msg'</span>] = <span class="string">'success'</span>;</span><br><span class="line">    <span class="keyword">echo</span> json_encode($data); </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h3><p>这次之所以获取了文件名，是有的文件用<code>Base64</code>编码后无法分辨文件格式；最重要的是还没办法从<code>Base64</code>获取文件名🤔 准确说是没这个数据🙄<br>这次还遇到一个坑，如果服务器没有返回数据<code>Ajax</code>还会报错😶 第一次遇到，算是涨知识咯<br>写的代码还有点简陋，同志还需努力</p><blockquote><p>大半个月没见我家智障了 保持微笑 🙃<br>2017-08-05</p></blockquote><p><a href="https://blog.dktoo.cc/2017/08/04/I&#39;m%20back/" target="_blank" rel="noopener"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;周末在宿舍无聊，想起公司&lt;code&gt;H5&lt;/code&gt;做的 App下周要做Base64附件上传，之前在期末项目用过图片用Base64编码用A
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="http://dktoo.cc/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Base64" scheme="http://dktoo.cc/tags/Base64/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>宝塔安装Ghost</title>
+    <link href="http://dktoo.cc/2017/08/01/%E5%AE%9D%E5%A1%94%E5%AE%89%E8%A3%85Ghost/"/>
+    <id>http://dktoo.cc/2017/08/01/宝塔安装Ghost/</id>
+    <published>2017-08-01T05:38:09.000Z</published>
+    <updated>2018-05-22T01:58:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="安装宝塔面板"><a href="#安装宝塔面板" class="headerlink" title="安装宝塔面板"></a>安装宝塔面板</h3><p>请到宝塔官网安装最新版本 <strong>点击传送</strong></p><h3 id="为Centos安装Node-js"><a href="#为Centos安装Node-js" class="headerlink" title="为Centos安装Node.js"></a>为Centos安装Node.js</h3><p><strong>1. 下载node.js</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/local/src/</span><br><span class="line">wget https://npm.taobao.org/mirrors/node/v0.12.18/node-v0.12.18.tar.gz  //使用的是淘宝npm镜像</span><br></pre></td></tr></table></figure><p><strong>2. 解压</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar zxvf node-v0.12.18.tar.gz</span><br></pre></td></tr></table></figure><p><strong>3. 编译安装</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd node-v0.12.18  </span><br><span class="line">./configure --prefix=/usr/local/node/0.12.18</span><br><span class="line">make</span><br><span class="line">make install</span><br></pre></td></tr></table></figure><p><strong>4. 编辑环境变量</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/profile</span><br></pre></td></tr></table></figure><p>设置node.js环境变量，在 <code>export PATH USER LOGNAME MAIL HOSTNAME HISTSIZE HISTCONTROL</code>一行的上面添加如下内容:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#set for nodejs</span><br><span class="line">export NODE_HOME=/usr/local/node/0.12.18 </span><br><span class="line">export PATH=$NODE_HOME/bin:$PATH</span><br></pre></td></tr></table></figure><p>保存并退出编辑</p><p><strong>5. 编译profile，使node.js生效</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source /etc/profile</span><br></pre></td></tr></table></figure><p><strong>6. 验证安装是否成功</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure><p>输出 <code>v0.12.18</code> 表示配置成功，node.js部署完成。</p><h3 id="安装Ghost"><a href="#安装Ghost" class="headerlink" title="安装Ghost"></a>安装Ghost</h3><p><strong>1. 下载Ghost到你的网站目录，并解压</strong></p><ul><li><p>先切换到你要安装Ghost的网站目录，再执行下载命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -P / http://dl.ghostchina.com/Ghost-0.7.4-zh-full.zip</span><br></pre></td></tr></table></figure></li><li><p>解压</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">unzip Ghost-0.7.4-zh-full.zip</span><br></pre></td></tr></table></figure></li></ul><p><strong>2. 复制config.example.js成config.js</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp config.example.js config.js</span><br></pre></td></tr></table></figure><p><strong>3. 编辑config.js</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">production: &#123;</span><br><span class="line">        url: &apos;http://www.*.com&apos;,//填写你的博客域名</span><br><span class="line">        mail: &#123;&#125;,</span><br><span class="line">        //需将这段代码注释</span><br><span class="line">        /*database: &#123;</span><br><span class="line">            client: &apos;sqlite3&apos;,</span><br><span class="line">            connection: &#123;</span><br><span class="line">                filename: path.join(__dirname, &apos;/content/data/ghost.db&apos;)</span><br><span class="line">            &#125;,</span><br><span class="line">            debug: false</span><br><span class="line">        &#125;,*/</span><br><span class="line">        //END</span><br><span class="line">        // 配置MySQL数据库</span><br><span class="line">        database: &#123;</span><br><span class="line">            client: &apos;mysql&apos;,</span><br><span class="line">            connection: &#123;</span><br><span class="line">                host     : &apos;127.0.0.1&apos;,//数据库地址</span><br><span class="line">                user     : &apos;数据库账户&apos;,//数据库账户</span><br><span class="line">                password : &apos;数据库密码&apos;,//数据库密码</span><br><span class="line">                database : &apos;数据库名称&apos;,//数据库名称</span><br><span class="line">                charset  : &apos;utf8&apos;</span><br><span class="line">            &#125;,</span><br><span class="line">            debug: false</span><br><span class="line">        &#125;,</span><br><span class="line">        server: &#123;</span><br><span class="line">            host: &apos;127.0.0.1&apos;,</span><br><span class="line">            port: &apos;2368&apos;</span><br><span class="line">        &#125;,</span><br></pre></td></tr></table></figure><h3 id="配置Nginx服务器"><a href="#配置Nginx服务器" class="headerlink" title="配置Nginx服务器"></a>配置Nginx服务器</h3><p>在宝塔面板选择你的站点，点击修改配置文件，清空里面的内容，替换成以下<br><code>这是最基本的设置，保证能运行，其他的可以自行配置</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">server &#123;  </span><br><span class="line">    listen 80;</span><br><span class="line">    server_name www.xxxx.com; //替换为你的域名</span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_set_header X-Real-IP $remote_addr;</span><br><span class="line">        proxy_set_header Host $http_host;</span><br><span class="line">        proxy_pass http://127.0.0.1:2368;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>保存后到面板重启nginx服务器</p><h3 id="启动Ghost"><a href="#启动Ghost" class="headerlink" title="启动Ghost"></a>启动Ghost</h3><p>在你网站目录下运行</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm start --production</span><br></pre></td></tr></table></figure><p>如果不出差错，在浏览器输入你的域名就可以看见Ghost的界面了，但目前Ghost在我们SSH断开后就会结束进程，所以还要执行最后一步</p><h3 id="安装forever守护Ghost进程"><a href="#安装forever守护Ghost进程" class="headerlink" title="安装forever守护Ghost进程"></a>安装forever守护Ghost进程</h3><p>以下命令都请在网站根目录下运行</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install forever -g</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">NODE_ENV=production forever start index.js //启动Ghost  </span><br><span class="line">NODE_ENV=production forever stop index.js //停止Ghost  </span><br><span class="line">NODE_ENV=production forever restart index.js //重启Ghost</span><br></pre></td></tr></table></figure><p><strong>至此宝塔面板Centos 7 x64 安装Ghost结束</strong></p><blockquote><p>感谢<a href="https://blog.doocii.com/" target="_blank" rel="noopener">豆采</a>提供的教程 <code>虽然他不知道</code>，本文是在他的原教程上修改而来</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;安装宝塔面板&quot;&gt;&lt;a href=&quot;#安装宝塔面板&quot; class=&quot;headerlink&quot; title=&quot;安装宝塔面板&quot;&gt;&lt;/a&gt;安装宝塔面板&lt;/h3&gt;&lt;p&gt;请到宝塔官网安装最新版本 &lt;strong&gt;点击传送&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;为Centos
+      
+    
+    </summary>
+    
+      <category term="服务器" scheme="http://dktoo.cc/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+      <category term="Ghost" scheme="http://dktoo.cc/tags/Ghost/"/>
+    
+      <category term="宝塔面板" scheme="http://dktoo.cc/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mui-App开发记录</title>
+    <link href="http://dktoo.cc/2017/07/01/Mui-App%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/"/>
+    <id>http://dktoo.cc/2017/07/01/Mui-App开发记录/</id>
+    <published>2017-07-01T05:31:03.000Z</published>
+    <updated>2018-05-22T02:00:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>来读大学之前一直想的是学安卓开发，军训的时候却选择了网站开发🤣 结果今年专业老师带我们用<strong>Html5</strong>做Web应用😋<br>使用<strong>HBuilder</strong>配合其提供的前端框架<code>Mui</code>开发App</p><h3 id="第一个App"><a href="#第一个App" class="headerlink" title="第一个App"></a>第一个App</h3><p>既然学了，期末作业果断就是自己做个App😎</p><h4 id="题目：图书管理系统"><a href="#题目：图书管理系统" class="headerlink" title="题目：图书管理系统"></a>题目：图书管理系统</h4><h4 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h4><ol><li><code>普通用户:</code> 查看，借阅，还书和附加的借阅条件</li><li><code>管理员:</code> 对图书进行增删改查</li><li><code>开发周期:</code>20Day+</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;来读大学之前一直想的是学安卓开发，军训的时候却选择了网站开发🤣 结果今年专业老师带我们用&lt;strong&gt;Html5&lt;/strong&gt;做We
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="http://dktoo.cc/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Mui" scheme="http://dktoo.cc/tags/Mui/"/>
+    
+      <category term="WebApp" scheme="http://dktoo.cc/tags/WebApp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>One Api</title>
+    <link href="http://dktoo.cc/2017/04/13/One%20Api/"/>
+    <id>http://dktoo.cc/2017/04/13/One Api/</id>
+    <published>2017-04-13T05:37:57.000Z</published>
+    <updated>2018-05-22T02:00:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>前几天一直在研究在FM播放器，虽然进度太慢，也算了解了下API的使用方法，昨晚偶然发现了<strong>「ONE · 一个」</strong>的官方接口，今日果断开坑 <strong>T_T</strong></p><p>目前设置的是每天 <strong>早上6点</strong> 从官方同步数据</p><p>经过一天的东拼西凑总算弄出来了，虽然代码简陋，可是也是自己的第一个像样的作品在以后自己的技术逐渐进步，逐步优化 <strong>OvO</strong></p><p><strong>Demo</strong></p><h3 id="请求"><a href="#请求" class="headerlink" title="请求"></a>请求</h3><ul><li>请求地址: <code>https://api.dktoo.cc/one/One.php</code></li><li>请求方式: <strong>GTE</strong></li><li>参数:<ul><li><code>encode - 输出格式</code></li><li><strong>json</strong> <code>默认</code></li><li><strong>js</strong></li></ul></li></ul><h3 id="返回参数"><a href="#返回参数" class="headerlink" title="返回参数"></a>返回参数</h3><ul><li><p>json请求 <code>https://api.dktoo.cc/one/One.php?encode=json</code></p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"date"</span>: <span class="string">"2017-04-16"</span>,</span><br><span class="line">  <span class="attr">"words_info"</span>: <span class="string">"毛姆"</span>,</span><br><span class="line">  <span class="attr">"volume"</span>: <span class="string">"VOL.1653"</span>,</span><br><span class="line">  <span class="attr">"forward"</span>: <span class="string">"我一直发现在你无话可说的时候就别说话，在你不知如何回答别人的话的时候就保持沉默，这是生活中一个很好的策略。"</span>,</span><br><span class="line">  <span class="attr">"img"</span>: <span class="string">"https://api.dktoo.cc/one/img/20170416.jpg"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>js请求 <code>https://api.dktoo.cc/one/One.php?encode=js</code></p></li></ul><p>在 head 区引用 javascript 版 API</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=<span class="string">"text/javascript"</span> src=<span class="string">"https://api.i-meto.com/one/One?encode=js"</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><p>然后在需要显示的地方加入</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;date()&lt;<span class="regexp">/script&gt;        /</span><span class="regexp">/发布时间</span></span><br><span class="line"><span class="regexp">&lt;script&gt;words_info()&lt;/</span>script&gt;  <span class="comment">//作者信息</span></span><br><span class="line">&lt;script&gt;volume()&lt;<span class="regexp">/script&gt;      /</span><span class="regexp">/版本号</span></span><br><span class="line"><span class="regexp">&lt;script&gt;forward()&lt;/</span>script&gt;     <span class="comment">//正文</span></span><br><span class="line">&lt;script&gt;img()&lt;<span class="regexp">/script&gt;         /</span><span class="regexp">/图片地址</span></span><br></pre></td></tr></table></figure><blockquote><p>2017-04-13 发布json版本<br>2017-04-16 增加js版本，对代码进行优化</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;前几天一直在研究在FM播放器，虽然进度太慢，也算了解了下API的使用方法，昨晚偶然发现了&lt;strong&gt;「ONE · 一个」&lt;/strong&gt;的官方接口，今日果断开坑 &lt;strong&gt;T_T&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;目前设置的是每天 &lt;strong&gt;早上6点&lt;/st
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="http://dktoo.cc/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Api" scheme="http://dktoo.cc/tags/Api/"/>
+    
+      <category term="One" scheme="http://dktoo.cc/tags/One/"/>
+    
+  </entry>
+  
+</feed>

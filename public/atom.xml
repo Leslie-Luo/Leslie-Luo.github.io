@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dktoo.cc/"/>
-  <updated>2018-07-30T08:45:57.780Z</updated>
+  <updated>2018-08-28T02:28:56.333Z</updated>
   <id>http://dktoo.cc/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Macintosh 常见问题</title>
+    <link href="http://dktoo.cc/2018/08/28/Macintosh-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    <id>http://dktoo.cc/2018/08/28/Macintosh-常见问题/</id>
+    <published>2018-08-28T02:20:13.000Z</published>
+    <updated>2018-08-28T02:28:56.333Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Time-Machine-备份到电脑硬盘"><a href="#Time-Machine-备份到电脑硬盘" class="headerlink" title="Time Machine 备份到电脑硬盘"></a>Time Machine 备份到电脑硬盘</h3><p>硬盘坏了，只能研究下能不能将系统备份到笔记本的第二块硬盘。但是遇到无法将分区格式化为Mac可读写的格式，最后采用恢复分区的办法解决。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">磁盘工具 -&gt; 新建一个映像（大小无所谓，格式选择Mac可读的格式）-&gt; 选中备份的分区 -&gt; 选择恢复（目标文件为新建好的磁盘映像）</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Time-Machine-备份到电脑硬盘&quot;&gt;&lt;a href=&quot;#Time-Machine-备份到电脑硬盘&quot; class=&quot;headerlink&quot; title=&quot;Time Machine 备份到电脑硬盘&quot;&gt;&lt;/a&gt;Time Machine 备份到电脑硬盘&lt;/h3&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="Macintosh" scheme="http://dktoo.cc/categories/Macintosh/"/>
+    
+    
+      <category term="黑苹果" scheme="http://dktoo.cc/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2018年下半年计划</title>
     <link href="http://dktoo.cc/2018/07/30/2018-Second-Half-Plan/"/>
     <id>http://dktoo.cc/2018/07/30/2018-Second-Half-Plan/</id>
     <published>2018-07-30T08:40:19.000Z</published>
-    <updated>2018-07-30T08:45:57.780Z</updated>
+    <updated>2018-07-30T08:45:57.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="2018年下半年计划"><a href="#2018年下半年计划" class="headerlink" title="2018年下半年计划"></a>2018年下半年计划</h3><ul><li style="list-style: none"><input type="checkbox"> 深度学习Html/Css/JavaScript</li><li style="list-style: none"><input type="checkbox"> 锻炼身体</li><li style="list-style: none"><input type="checkbox"> 把工作落实</li><li style="list-style: none"><input type="checkbox"> 存钱换电脑</li><li style="list-style: none"><input type="checkbox"> 学习厨艺</li></ul>]]></content>
     
@@ -150,11 +175,11 @@
   </entry>
   
   <entry>
-    <title>Dell 7447 黑苹果安装-备份</title>
+    <title>Dell 7447 Clover</title>
     <link href="http://dktoo.cc/2018/03/21/Dell-7447-Macintosh/"/>
     <id>http://dktoo.cc/2018/03/21/Dell-7447-Macintosh/</id>
     <published>2018-03-21T07:38:21.000Z</published>
-    <updated>2018-05-22T01:58:50.000Z</updated>
+    <updated>2018-08-28T02:30:01.949Z</updated>
     
     <content type="html"><![CDATA[<h5 id="机型配置"><a href="#机型配置" class="headerlink" title="机型配置"></a>机型配置</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">机型：DELL Inspiron 7447</span><br><span class="line">CPU：Intel i5-4210H @ 2.90GHz</span><br><span class="line">内存：DDR3 4G * 2</span><br><span class="line">硬盘：影驰 GALAX GX0120L9A250-E1 120 GB + 希捷 ST500LT012-1DG142 500 GB</span><br><span class="line">显卡：Intel HD Graphics 4600</span><br><span class="line">显示器：奇美 CMN1490 1366x768</span><br><span class="line">声卡：Realtek ALC255</span><br><span class="line">无线网卡：DW1560</span><br></pre></td></tr></table></figure><h5 id="安装文件"><a href="#安装文件" class="headerlink" title="安装文件"></a>安装文件</h5><p><a href="https://file.dktoo.cc/EFI-Dell-i5-7447/CLOVER.zip" target="_blank" rel="noopener">7447-Clover</a></p><p><a href="https://file.dktoo.cc/EFI-Dell-i5-7447/%E5%A3%B0%E5%8D%A1.zip" target="_blank" rel="noopener">ALC255声卡</a></p>]]></content>
     

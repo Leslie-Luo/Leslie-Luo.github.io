@@ -1,5 +1,5 @@
 ---
-title: Dell 7447 黑苹果安装-备份
+title: Dell 7447 Clover
 date: 2018-03-21 15:38:21
 categories:
 - Macintosh

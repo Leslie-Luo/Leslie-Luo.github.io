@@ -1,4 +1,6 @@
+.DS_Store
 .vscode/
+public/
 example/
 node_modules/
 package-lock.json

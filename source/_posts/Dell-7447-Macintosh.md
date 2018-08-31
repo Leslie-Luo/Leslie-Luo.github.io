@@ -21,8 +21,6 @@ CPU：Intel i5-4210H @ 2.90GHz
 无线网卡：DW1560
 ```
 
-##### 安装文件
+##### 配置文件
 
-[7447-Clover](https://file.dktoo.cc/EFI-Dell-i5-7447/CLOVER.zip)
-
-[ALC255声卡](https://file.dktoo.cc/EFI-Dell-i5-7447/%E5%A3%B0%E5%8D%A1.zip)
+[Clover](https://file.dktoo.com/Dell-7447-Clover/Dell%207447%20Clover.zip)

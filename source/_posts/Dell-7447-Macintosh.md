@@ -24,3 +24,5 @@ CPU：Intel i5-4210H @ 2.90GHz
 ##### 配置文件
 
 [Clover](https://file.dktoo.com/Dell-7447-Clover/Dell%207447%20Clover.zip)
+
+![](https://i.loli.net/2018/09/01/5b8a0a12d3b6f.jpg)

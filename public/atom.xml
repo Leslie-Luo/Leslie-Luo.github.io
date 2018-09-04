@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://dktoo.cc/"/>
-  <updated>2018-09-01T03:49:30.989Z</updated>
+  <updated>2018-09-04T01:47:39.284Z</updated>
   <id>http://dktoo.cc/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IOS微信H5-底部导航栏隐藏</title>
+    <link href="http://dktoo.cc/2018/09/03/IOS-WeChat-Tabbar/"/>
+    <id>http://dktoo.cc/2018/09/03/IOS-WeChat-Tabbar/</id>
+    <published>2018-09-03T06:31:37.000Z</published>
+    <updated>2018-09-04T01:47:39.284Z</updated>
+    
+    <content type="html"><![CDATA[<p>IOS端微信H5发生页面跳转后微信浏览器会强制加载一个导航栏，今天终于找到办法把它干掉。</p><p><img src="https://i.loli.net/2018/09/03/5b8ce35ea1168.png" alt="TabBar"></p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>利用HTML5的<code>history.replaceState()</code>来修改当前的页面地址完成页面之间的跳转。<code>replaceState()</code>是修改了当前的历史记录项而不是新建一个。 注意这并不会阻止其在全局浏览器历史记录中创建一个新的历史记录项。</p><h3 id="浏览器支持"><a href="#浏览器支持" class="headerlink" title="浏览器支持"></a>浏览器支持</h3><iframe src="https://caniuse.com/#search=replaceState" width="100%" height="436px"></iframe><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>这个方法不会产生浏览的记录，所以在安卓平台上点击返回键会直接退出。</p><p>谨慎使用</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;IOS端微信H5发生页面跳转后微信浏览器会强制加载一个导航栏，今天终于找到办法把它干掉。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2018/09/03/5b8ce35ea1168.png&quot; alt=&quot;TabBar&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="http://dktoo.cc/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JavaScript" scheme="http://dktoo.cc/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>Macintosh 常见问题</title>
@@ -224,9 +251,9 @@
       <category term="前端" scheme="http://dktoo.cc/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="JSBox" scheme="http://dktoo.cc/tags/JSBox/"/>
-    
       <category term="JavaScript" scheme="http://dktoo.cc/tags/JavaScript/"/>
+    
+      <category term="JSBox" scheme="http://dktoo.cc/tags/JSBox/"/>
     
   </entry>
   
